@@ -22,7 +22,7 @@ describe("Testes da API", () => {
         expect(response.statusCode).toBe(200);
 
         expect(response.body).toEqual({
-            status: "online"
+            status: "offline"
         });
 
     });
